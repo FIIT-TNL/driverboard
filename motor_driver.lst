@@ -1,0 +1,23 @@
+eeschema (2011-05-25)-stable  >> Creation date: Pi 31. október 2014, 08:49:19 CET
+
+#Cmp ( order = Reference )
+| C1         100nF       
+| GPIO1      CONN_20X2   
+| H1         L298N       
+| JP1        JUMPER      
+| Motor1     CONN_2      
+| Motor2     CONN_2      
+| MotorSupp1 CONN_2      
+#End Cmp
+
+#Cmp ( order = Value )
+| 100nF        C1        
+| CONN_2       Motor1    
+| CONN_2       Motor2    
+| CONN_2       MotorSupp1
+| CONN_20X2    GPIO1     
+| JUMPER       JP1       
+| L298N        H1        
+#End Cmp
+
+#End List
